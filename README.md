@@ -497,18 +497,18 @@ Project Feedback:
    Inicialmente se realizó un prototipo de la interfaz en función de los requerimientos a cumplir:
    
    La temática, indicarle al usuario que escogiera entre codificar y decodificar, un espacio para introducir el mensaje original y un espacio para obtener el mensaje codificado/descodificado, también un botón para copiar el mensaje obtenido, se asume que el desplazamiento es fijo para la interfaz y no es una opción variable para el usuario.
-   ![Prototipo]url("src/img/Prototipo.png")
+   ![Prototipo]("src/img/Prototipo.png")
    
    Posteriormente se realizó una representación inicial del prototipo en HTML y CSS, en este punto se consideró incluir un input tipo número para que el usuario eligiera el valor de desplazamiento del alfabeto tradicional ya que así estaba estipulado en el Readme preestablecido, sin embargo la codificación en JS era escueta por tanto aún no se podía encriptar un mensaje y los caracteres ingresados podían ser mayúsculas, minúsculas, números, símbolos y espacios.
-   ![Bosquejo inicial][url("src/img/BosquejoEnHTMLyCSS.png")]
+   ![Bosquejo inicial]("src/img/BosquejoEnHTMLyCSS.png")
 
    A través de JS se logró realizar la codificación tal que independientemente del valor ingresado por el usuario el desplazamiento ocurriera en función de los caracteres en mayúscula ASCII, en este punto solo se podía codificar un mensaje, aún no se lograba decodificar, de igual manera se estuvo trabajando en un solo archivo JS por desconocimiento sobre trabajar con módulos y la interacción entre estos.
 
    También se logró delimitar el input de mensaje original para admitir solamente caracteres en mayúsculas, en este punto los caracteres ingresados independientemente que fuese letras minúsculas se observan en el input en mayúsculas, la limitación encontrada era que no se podía ingresar espacios ni caracteres especiales, para esto se trabajó con una función regular de JS que se encontró en la web sin entender muy bien su funcionamiento, salvo por los resultados reflejados en la interfaz.
-   ![Primer resultado][url("src/img/PrimerResultadoEncriptar.png")]
+   ![Primer resultado]("src/img/PrimerResultadoEncriptar.png")
 
    Debido a que la interfaz se percibía muy simple, se incorporó un fondo alusivo a la temática “Mensajes de amor”, sin embargo resulto difícil otorgar opacidad al back-ground en CSS por tanto se editó la imagen en ppt y se subió a VSC desde el ordenador, se generó y se otorgó estilos a un select para elegir entre cifrar y descifrar y un botón para ejecutar la función seleccionada por el usuario, en este punto los botones no tenían funcionalidad y en el feedback de la demo se obtuvo la observación de aclarar aún más el fondo o ampliarlo para que ocupara toda la interfaz pero en el main presentara un tonalidad más clara.
-   ![fondo y botones][url("src/img/CSSyHTMLfondoYbotones.png")]
+   ![fondo y botones]("src/img/CSSyHTMLfondoYbotones.png")
 
    Ahora bien, se editó nuevamente el fondo en ppt y se cargó la imagen a VSC desde el ordenador, se modificó la propiedad opacidad en el main, así como también la imagen principal denominada cupido.
 
@@ -521,7 +521,7 @@ Project Feedback:
    También se agregó un footer como extra de acuerdo con lo observado en las demos de mis compañeras y para otorgarle personalidad.
    El desafío más grande fue trabajar con módulos, debido a que no comencé de tal manera y las funciones desarrolladas fluían en un solo módulo JS, una vez desbloqueado este conflicto la interfaz quedó funcional.
 
-   ![Interfaz final][url("src/img/InterfazFinal.png")]
+   ![Interfaz final]("src/img/InterfazFinal.png")
 
 * Aplicación de tests unitarios:
    Este punto también representó un gran desafío y una enseñanza importante: “Seguir al pie de la letra el Readme preestablecido y realizar el test a medida que se desarrolla el código para entender los requerimientos específicos del proyecto”.
@@ -536,7 +536,7 @@ Project Feedback:
    El último error estaba asociado a la limitación de los argumentos de las funciones codificar/decodificar, respecto a aceptar solo números y texto, antes de agregar el for al objeto cipher daba ok, pero después no, no supe porque ni supe resolverlo, para esto revisé algunos repositorios de mis compañeras en encontré una función if explicada que empleé en mis funciones codificar/decodificar del objeto cipher y así dar respuesta al requerimiento del test.
 
    Intenté quitar el for de index.js y no logré funcionalidad en la interfaz ni como asociar el objeto cipher a index.js de una manera distinta ala que tenía establecida, por tanto la versión final aunque funcional contiene este erro que no pude solucionar, pero que dan respuesta tanto a los requerimientos del test como a la funcionalidad de la interfaz. 
-   ![Test][url("src/img/test.png")]
+   ![Test]("src/img/test.png")
 
  * Webs consultadas han sido las siguientes:
 
