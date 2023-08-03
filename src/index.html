@@ -1,14 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="mainContainer">
+    <h1>Mensajes de amor</h1>
+
+    <label for="original">Mensaje original</label>
+    <input id="original" type="text" value="" placeholder="Ingrese texto a cifrar o descifrar">
+
+    <label for="desplazamiento">Desplazamiento</label>
+    <input id="desplazamiento" type="number" placeholder="Ingrese número desplazamiento alfabético">
+
+    <hr>
+
+    <button id="codificar">Codificar</button>
+    <button id="decodificar">Decodificar</button>
+
+    <label for="resultado">Mensaje resultante</label>
+    <input id="resultado" type="text" value="" placeholder="Texto resultante">
+
+    <button id="limpiar">Limpiar</button>
+  </div>
+
+  <a class="cupido" href="https://img.freepik.com">
+    <img
+      src="https://img.freepik.com/vector-premium/cupido-lindo-bebe-carta-san-valentin-ilustracion-dibujos-animados-vectoriales_159446-1022.jpg?w=2000">
+  </a>
+
+  <script src="index.js" type="module"></script>
+
+  <footer class="footer" id="footer">
+    <div class="footer-content">
+        <p>Realizado por: <b>Roquerika</b></p>
     </div>
-    <script src="index.js" type="module"></script>
-  </body>
+</footer>
+
+</body>
+
 </html>
