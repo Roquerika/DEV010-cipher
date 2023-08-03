@@ -497,7 +497,7 @@ Project Feedback:
    Inicialmente se realizó un prototipo de la interfaz en función de los requerimientos a cumplir:
    
    La temática, indicarle al usuario que escogiera entre codificar y decodificar, un espacio para introducir el mensaje original y un espacio para obtener el mensaje codificado/descodificado, también un botón para copiar el mensaje obtenido, se asume que el desplazamiento es fijo para la interfaz y no es una opción variable para el usuario.
-   ![Prototipo]("src/img/Prototipo.png")
+   ![Prototipo]("img/Prototipo.png")
    
    Posteriormente se realizó una representación inicial del prototipo en HTML y CSS, en este punto se consideró incluir un input tipo número para que el usuario eligiera el valor de desplazamiento del alfabeto tradicional ya que así estaba estipulado en el Readme preestablecido, sin embargo la codificación en JS era escueta por tanto aún no se podía encriptar un mensaje y los caracteres ingresados podían ser mayúsculas, minúsculas, números, símbolos y espacios.
    ![Bosquejo inicial]("src/img/BosquejoEnHTMLyCSS.png")
@@ -508,7 +508,7 @@ Project Feedback:
    ![Primer resultado]("src/img/PrimerResultadoEncriptar.png")
 
    Debido a que la interfaz se percibía muy simple, se incorporó un fondo alusivo a la temática “Mensajes de amor”, sin embargo resulto difícil otorgar opacidad al back-ground en CSS por tanto se editó la imagen en ppt y se subió a VSC desde el ordenador, se generó y se otorgó estilos a un select para elegir entre cifrar y descifrar y un botón para ejecutar la función seleccionada por el usuario, en este punto los botones no tenían funcionalidad y en el feedback de la demo se obtuvo la observación de aclarar aún más el fondo o ampliarlo para que ocupara toda la interfaz pero en el main presentara un tonalidad más clara.
-   ![fondo y botones]("src/img/CSSyHTMLfondoYbotones.png")
+   ![CSSyHTMLfondoYbotones]("src/img/CSSyHTMLfondoYbotones.png")
 
    Ahora bien, se editó nuevamente el fondo en ppt y se cargó la imagen a VSC desde el ordenador, se modificó la propiedad opacidad en el main, así como también la imagen principal denominada cupido.
 
