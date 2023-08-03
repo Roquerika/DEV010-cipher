@@ -1,0 +1,168 @@
+html {
+  --primary: #3d5095;
+  --font: 'Andale Mono', 'Menlo', 'Courier New', Courier, monospace;
+  --dark: #222;
+  --gray: #D8D8D8;
+  --white: #FFF;
+  --darkGray: #f02a2a;
+  --blue: #3d5095;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #FFF 75%, #FFF8F8 100%);
+  font-family: var(--font);
+  background-image: url("img/fondo2.png");
+  background-repeat: repeat;
+  overflow: scroll;
+  background-position: center;
+  background-size: 1500px;
+  justify-content: center;
+  position: center;
+}
+
+h1 {
+  color: var(--primary);
+  border-bottom: 5px solid var(--primary);
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 2.75em;
+  font-weight: 10;
+}
+
+.mainContainer {
+  max-width: 800px;
+  max-height: 1000%;
+  margin: 0 auto;
+  background-color: white;
+  opacity: 0.8;
+  position: center;
+  padding: 2%;
+}
+
+hr {
+  border: 1px solid var(--primary);
+  margin: 40px 20px;
+}
+
+label {
+  margin: 15px;
+  color: var(--darkGray);
+  font-family: 'Andale Mono';
+  font-size: 1.25em;
+}
+
+input {
+  display: block;
+  font-family: var(--font);
+  font-size: 1.5em;
+  padding: 10px;
+  font-weight: 100;
+  border: 3px solid var(--gray);
+  margin: 15px;
+  background-color: var(--white);
+  width: calc(100% - 65px);
+}
+
+#resultado {
+  border-color: var(--dark);
+  background-color: #e7ebfc;
+  color: var(#eac18f);
+}
+
+#codificar {
+  margin-top: 5px;
+  display: block;
+  width: 15%;
+  justify-content: center;
+  font-family: var(--font);
+  font-size: 1.25em;
+  color: var(--dark);
+  padding: 3px;
+  font-weight: 40;
+  background-color: var(--white);
+  color: var(--dark);
+  border: 1px solid var(--blue);
+  cursor: pointer;
+  position: relative;
+  left: 220px;
+  transition-duration: 0.2s;
+}
+
+#codificar:hover {
+  background-color: var(--blue);
+  color: white;
+}
+
+#decodificar {
+  margin-top: 3.5px;
+  display: block;
+  width: 18%;
+  justify-content: center;
+  font-family: var(--font);
+  font-size: 1.25em;
+  color: var(--dark);
+  padding: 3px;
+  font-weight: 40;
+  background-color: var(--white);
+  color: var(--dark);
+  border: 1px solid var(--blue);
+  cursor: pointer;
+  bottom: 35px;
+  position: relative;
+  left: 410px;
+  transition-duration: 0.2s;
+}
+
+#decodificar:hover {
+  background-color: var(--blue);
+  color: white;
+}
+
+#limpiar {
+  display: inline;
+  margin-top: 50px;
+  justify-content: center;
+  font-family: var(--font);
+  font-size: 1.25em;
+  color: var(--white);
+  padding: 5px;
+  font-weight: 50;
+  border: 1px solid var(--gray);
+  margin: 0px;
+  background-color: var(--blue);
+  width: calc(15%);
+  position: relative;
+  left: 650px;
+  bottom: 0px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+#limpiar:hover {
+  background-color: var(--white);
+  color: black;
+}
+
+.cupido img {
+  width: 300px;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 0%;
+  opacity: 0.8;
+}
+
+.footer {
+  background-color: var(--white);
+  color:var(--blue);
+  padding: 0px 0;
+  text-align: center;
+  max-width: 350px;
+  opacity: 0.8;
+  justify-content: center;
+  position: relative;
+  left: 880px;
+  font-family: var(--font);
+  font-size: 1.20em;
+  margin: 1px;
+}
