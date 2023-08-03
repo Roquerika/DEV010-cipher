@@ -6,7 +6,7 @@ const cipher = {
     let nuevaLetraCodificada = "";
 
     if (typeof Number(desplazamiento) !== 'number' || typeof mensaje !== 'string') {
-      throw new TypeError('Agrumentos inválidos');
+      throw new TypeError('Argumentos inválidos');
     }
     // typeof Number(desplazamiento) !== 'number': Aquí se convierte la variable deplazamiento en un número utilizando la función Number() y luego se verifica si el tipo de dato resultante es igual a 'number'. Si no es un número, se pasa a la siguiente parte de la condición.
     // typeof string !== 'string': Esta parte verifica si la variable mensaje es de tipo 'string'. 
@@ -70,4 +70,6 @@ const cipher = {
 
 };
 export default cipher;
+
+
 
