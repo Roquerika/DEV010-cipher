@@ -497,10 +497,11 @@ Project Feedback:
    Inicialmente se realizó un prototipo de la interfaz en función de los requerimientos a cumplir:
    
    La temática, indicarle al usuario que escogiera entre codificar y decodificar, un espacio para introducir el mensaje original y un espacio para obtener el mensaje codificado/descodificado, también un botón para copiar el mensaje obtenido, se asume que el desplazamiento es fijo para la interfaz y no es una opción variable para el usuario.
-   ![Prototipo]("img/Prototipo.png")
+   
+   ![alt Prototipo](img/Prototipo.png)
    
    Posteriormente se realizó una representación inicial del prototipo en HTML y CSS, en este punto se consideró incluir un input tipo número para que el usuario eligiera el valor de desplazamiento del alfabeto tradicional ya que así estaba estipulado en el Readme preestablecido, sin embargo la codificación en JS era escueta por tanto aún no se podía encriptar un mensaje y los caracteres ingresados podían ser mayúsculas, minúsculas, números, símbolos y espacios.
-   ![Bosquejo inicial]("src/img/BosquejoEnHTMLyCSS.png")
+   ![alt Bosquejo inicial](src/img/BosquejoEnHTMLyCSS.png)
 
    A través de JS se logró realizar la codificación tal que independientemente del valor ingresado por el usuario el desplazamiento ocurriera en función de los caracteres en mayúscula ASCII, en este punto solo se podía codificar un mensaje, aún no se lograba decodificar, de igual manera se estuvo trabajando en un solo archivo JS por desconocimiento sobre trabajar con módulos y la interacción entre estos.
 
