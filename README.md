@@ -540,7 +540,7 @@ Project Feedback:
 
    ![alt Test](src/img/Test.png)
 
-*italicized  Las Webs consultadas han sido las siguientes:*
+      *Las Webs consultadas han sido las siguientes:*
 
 * [rot-13](https://parzibyte.me/blog/2019/05/24/rot-13-java-algoritmo-variantes-rot-1/)
 * [Eventos en JS](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Events)
