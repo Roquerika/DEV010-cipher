@@ -537,8 +537,8 @@ Project Feedback:
    El último error estaba asociado a la limitación de los argumentos de las funciones codificar/decodificar, respecto a aceptar solo números y texto, antes de agregar el for al objeto cipher daba ok, pero después no, no supe porque ni supe resolverlo, para esto revisé algunos repositorios de mis compañeras en encontré una función if explicada que empleé en mis funciones codificar/decodificar del objeto cipher y así dar respuesta al requerimiento del test.
 
    Intenté quitar el for de index.js y no logré funcionalidad en la interfaz ni como asociar el objeto cipher a index.js de una manera distinta ala que tenía establecida, por tanto la versión final aunque funcional contiene este erro que no pude solucionar, pero que dan respuesta tanto a los requerimientos del test como a la funcionalidad de la interfaz. 
-   ![alt Test](src/img/test.png)
 
+   ![alt Test](src/img/Test.png)
  * Webs consultadas han sido las siguientes:
 
 * [rot-13](https://parzibyte.me/blog/2019/05/24/rot-13-java-algoritmo-variantes-rot-1/)
