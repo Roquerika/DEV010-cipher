@@ -539,7 +539,8 @@ Project Feedback:
    Intenté quitar el for de index.js y no logré funcionalidad en la interfaz ni como asociar el objeto cipher a index.js de una manera distinta ala que tenía establecida, por tanto la versión final aunque funcional contiene este erro que no pude solucionar, pero que dan respuesta tanto a los requerimientos del test como a la funcionalidad de la interfaz. 
 
    ![alt Test](src/img/Test.png)
- * Webs consultadas han sido las siguientes:
+
+*italicized  Las Webs consultadas han sido las siguientes:*
 
 * [rot-13](https://parzibyte.me/blog/2019/05/24/rot-13-java-algoritmo-variantes-rot-1/)
 * [Eventos en JS](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Events)
